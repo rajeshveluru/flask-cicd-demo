@@ -5,4 +5,4 @@ def test_home():
     response = client.get("/")
 
     assert response.status_code == 200
-    assert b"Hello from Flask CI/CD Demo!" in response.data
+    assert b"Rajesh chowdary DevOps engineer earnes 100k+!" in response.data
